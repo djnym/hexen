@@ -1,0 +1,16 @@
+{application, hexen,
+ [
+  {description, "Hex Mirroring Toolkit"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  crypto,
+                  asn1,
+                  public_key,
+                  ssl
+                 ]},
+  {mod, { hexen_app, []}},
+  {env, []}
+ ]}.
