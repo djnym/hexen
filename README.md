@@ -8,22 +8,30 @@ This project provides an escript which does the following
 
 ## Building
 
-> % rebar3 compile
-> % sudo cp _build/default/bin/hexen /usr/bin
+```
+% rebar3 compile
+% sudo cp _build/default/bin/hexen /usr/bin
+```
 
 ## Running
 
-> % mkdir hex.pm
-> % cd hex.pm
-> % hexen
+```
+% mkdir hex.pm
+% cd hex.pm
+% hexen
+```
 
 The escript will start a web server on port 31337, so you can then use
 
-> HEX_CDN=http://127.0.0.1:31337/ rebar3
+```
+% HEX_CDN=http://127.0.0.1:31337/ rebar3
+```
 
 or
 
-> HEX_MIRROR=http://127.0.0.1:31337/ mix
+```
+% HEX_MIRROR=http://127.0.0.1:31337/ mix
+```
 
 to pull packages from the local hex mirror.
 
