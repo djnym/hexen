@@ -9,7 +9,7 @@ This project provides an escript which does the following
 ## Building
 
 ```
-% rebar3 compile
+% rebar3 escriptize
 % sudo cp _build/default/bin/hexen /usr/bin
 ```
 
